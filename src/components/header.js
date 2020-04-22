@@ -10,13 +10,13 @@ const Header = ({ siteTitle }) => {
     <header>
       <div>
         <div className="headerNavSection">
-          <Link to="/">
+          <Link to="/" activeClassName="activeLink">
             <i className="fa fa-home"></i>Home
           </Link>
-          <Link to="/blog">
+          <Link to="/blog" activeClassName="activeLink">
             <i className="fa fa-align-left"></i>Read
           </Link>
-          <Link to="/about">
+          <Link to="/about" activeClassName="activeLink">
             <i className="fa fa-address-book"></i>About
           </Link>
           <ThemeToggler>

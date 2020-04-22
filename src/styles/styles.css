@@ -10821,20 +10821,32 @@ body.light a p {
   margin: 1.25vmin 2.5vmin;
 }
 
-body.light a:hover {
+body.light a:hover,
+body.light a:focus {
   color: #2e6078;
   text-decoration: none;
 }
 
-body.light a:hover .fa {
+body.light a:hover .fa,
+body.light a:focus .fa {
   color: #2e6078;
 }
 
-body.light a:hover h2 {
+body.light a:hover h2,
+body.light a:focus h2 {
   color: #2e6078;
 }
 
-body.light a:hover p {
+body.light a:hover p,
+body.light a:focus p {
+  color: #2e6078;
+}
+
+body.light .activeLink {
+  color: #2e6078;
+}
+
+body.light .activeLink i {
   color: #2e6078;
 }
 
@@ -10895,20 +10907,32 @@ body.dark a p {
   margin: 1.25vmin 2.5vmin;
 }
 
-body.dark a:hover {
+body.dark a:hover,
+body.dark a:focus {
   color: #2e6078;
   text-decoration: none;
 }
 
-body.dark a:hover .fa {
+body.dark a:hover .fa,
+body.dark a:focus .fa {
   color: #2e6078;
 }
 
-body.dark a:hover h2 {
+body.dark a:hover h2,
+body.dark a:focus h2 {
   color: #2e6078;
 }
 
-body.dark a:hover p {
+body.dark a:hover p,
+body.dark a:focus p {
+  color: #2e6078;
+}
+
+body.dark .activeLink {
+  color: #2e6078;
+}
+
+body.dark .activeLink i {
   color: #2e6078;
 }
 

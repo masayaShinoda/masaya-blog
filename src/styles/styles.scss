@@ -64,7 +64,8 @@ body.light {
       margin: 1.25vmin 2.5vmin;
     }
   }
-  a:hover {
+  a:hover,
+  a:focus {
     color: $clr-primary-brightened;
     text-decoration: none;
     .fa {
@@ -75,6 +76,12 @@ body.light {
       color: $clr-primary-brightened;
     }
     p {
+      color: $clr-primary-brightened;
+    }
+  }
+  .activeLink {
+    color: $clr-primary-brightened;
+    i {
       color: $clr-primary-brightened;
     }
   }
@@ -122,7 +129,8 @@ body.dark {
       margin: 1.25vmin 2.5vmin;
     }
   }
-  a:hover {
+  a:hover,
+  a:focus {
     color: $clr-primary-brightened;
     text-decoration: none;
     .fa {
@@ -133,6 +141,12 @@ body.dark {
       color: $clr-primary-brightened;
     }
     p {
+      color: $clr-primary-brightened;
+    }
+  }
+  .activeLink {
+    color: $clr-primary-brightened;
+    i {
       color: $clr-primary-brightened;
     }
   }
