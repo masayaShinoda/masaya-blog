@@ -10797,10 +10797,28 @@ body.light h1 {
 }
 
 body.light h2 {
-  font-size: 1.5em;
+  font-size: 1.6em;
   font-weight: 500;
   line-height: 1.6;
   font-family: Oswald, sans-serif;
+}
+
+body.light h3 {
+  display: inline-block;
+  color: #275166;
+  background-color: #fcfff5;
+  font-size: 1.1em;
+  font-weight: 400;
+  font-family: Roboto, sans-serif;
+  line-height: 1.6;
+  border-radius: 0.5vmax;
+  padding: 0 1.5vmin;
+  margin-top: 3.75vmin;
+  margin-bottom: 2.5vmin;
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  z-index: 2;
 }
 
 body.light p,
@@ -10854,6 +10872,36 @@ body.light .fa {
   color: #193441;
 }
 
+body.light figure {
+  max-width: 60%;
+  border-radius: 2.5em;
+  margin: 5vh 0;
+}
+
+body.light figure img {
+  border-radius: 2.5vmin;
+  color: #688777;
+}
+
+body.light figure figcaption {
+  font-size: 0.9em;
+  color: #688777;
+  margin-top: -1em;
+  text-indent: 1em;
+}
+
+@media (max-width: 1023px) {
+  body.light figure {
+    max-width: 65%;
+  }
+}
+
+@media (max-width: 480px) {
+  body.light figure {
+    max-width: 100%;
+  }
+}
+
 body.light footer {
   color: #12252f;
 }
@@ -10883,10 +10931,28 @@ body.dark h1 {
 }
 
 body.dark h2 {
-  font-size: 1.5em;
+  font-size: 1.6em;
   font-weight: 500;
   line-height: 1.6;
   font-family: Oswald, sans-serif;
+}
+
+body.dark h3 {
+  display: inline-block;
+  color: #bfdae6;
+  background-color: #12252f;
+  font-size: 1.1em;
+  font-weight: 400;
+  font-family: Roboto, sans-serif;
+  line-height: 1.6;
+  border-radius: 0.5vmax;
+  padding: 0 1.5vmin;
+  margin-top: 3.75vmin;
+  margin-bottom: 2.5vmin;
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  z-index: 2;
 }
 
 body.dark p,
@@ -10938,6 +11004,36 @@ body.dark .activeLink i {
 
 body.dark .fa {
   color: #e4eff5;
+}
+
+body.dark figure {
+  max-width: 60%;
+  border-radius: 2.5em;
+  margin: 5vh 0;
+}
+
+body.dark figure img {
+  border-radius: 2.5vmin;
+  color: #688777;
+}
+
+body.dark figure figcaption {
+  font-size: 0.9em;
+  color: #688777;
+  margin-top: -1em;
+  text-indent: 1em;
+}
+
+@media (max-width: 1023px) {
+  body.dark figure {
+    max-width: 65%;
+  }
+}
+
+@media (max-width: 480px) {
+  body.dark figure {
+    max-width: 100%;
+  }
 }
 
 body.dark footer {
@@ -11099,42 +11195,12 @@ header .headerLogo:hover::after {
           flex-direction: column;
 }
 
-.pageContainer .specialNav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  height: 100%;
-  margin-top: 1.1em;
-  margin-left: -0.25rem;
-}
-
-.pageContainer .specialNav a {
-  display: block;
-  max-width: 32px;
-  max-height: 32px;
-  margin-bottom: 10vh;
-}
-
-.pageContainer .specialNav img {
-  display: block;
-  max-width: 32px;
-  max-height: 32px;
-  margin-bottom: 10vh;
-}
-
-.pageContainer .homepageImage {
-  display: block;
-  position: relative;
-  max-width: 100%;
-  margin: 0;
-  padding: 0;
+.blogContainer {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  outline: 0.25vmin solid rgba(46, 96, 120, 0.325);
+  outline-offset: 2.5vmin;
 }
 
 .blogContainer ul {
@@ -11147,6 +11213,7 @@ header .headerLogo:hover::after {
   margin: inherit;
   padding: inherit;
   margin-bottom: 4vh;
+  margin-left: 0.5vmax;
 }
 
 .blogContainer ul li h2 {
@@ -11216,17 +11283,6 @@ header .headerLogo:hover::after {
   margin: 5vh 0;
 }
 
-.blogTemplate .blogContent figure {
-  max-width: 45%;
-  border-radius: 2.5em;
-  margin: 5vh 0;
-}
-
-.blogTemplate .blogContent figure img {
-  border-radius: 2.5vmin;
-  color: #688777;
-}
-
 .blogTemplate .blogContent h2 {
   margin-top: 7.5vh;
   margin-bottom: 2.5vh;
@@ -11241,16 +11297,10 @@ header .headerLogo:hover::after {
   .blogTemplate .blogContent p {
     max-width: 80%;
   }
-  .blogTemplate .blogContent figure {
-    max-width: 65%;
-  }
 }
 
 @media (max-width: 480px) {
   .blogTemplate .blogContent p {
-    max-width: 100%;
-  }
-  .blogTemplate .blogContent figure {
     max-width: 100%;
   }
 }
@@ -11270,8 +11320,7 @@ header .headerLogo:hover::after {
   height: -moz-fit-content;
   height: fit-content;
   padding: 2.5vmax;
-  border: 0.25vmin solid #2e6078;
-  border-radius: 1em;
+  border: 0.25vmin solid rgba(46, 96, 120, 0.325);
 }
 
 .aboutContainer .flexContact a,
@@ -11308,6 +11357,6 @@ footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 5vmax;
+  margin-top: 7.5vmax;
 }
 /*# sourceMappingURL=styles.css.map */

@@ -44,10 +44,26 @@ body.light {
     font-family: $font-heading;
   }
   h2 {
-    font-size: 1.5em;
+    font-size: 1.6em;
     font-weight: 500;
     line-height: 1.6;
     font-family: $font-subheading;
+  }
+  h3 {
+    // the category heading for blog.js
+    display: inline-block;
+    color: lighten($clr-primary, 10%);
+    background-color: $clr-light;
+    font-size: 1.1em;
+    font-weight: 400;
+    font-family: $font-primary;
+    line-height: 1.6;
+    border-radius: 0.5vmax;
+    padding: 0 1.5vmin;
+    margin-top: 3.75vmin;
+    margin-bottom: 2.5vmin;
+    max-width: fit-content;
+    z-index: 2;
   }
   p,
   ul {
@@ -88,6 +104,34 @@ body.light {
   .fa {
     color: $clr-primary;
   }
+
+  // images
+  figure {
+    max-width: 60%;
+    border-radius: 2.5em;
+    margin: 5vh 0;
+    img {
+      border-radius: 2.5vmin;
+      color: $clr-bg-dark;
+    }
+    figcaption {
+      font-size: 0.9em;
+      color: $clr-bg-dark;
+      margin-top: -1em;
+      text-indent: 1em;
+    }
+  }
+  @media (max-width: $tablet-bp) {
+    figure {
+      max-width: 65%;
+    }
+  }
+  @media (max-width: $mobile-bp) {
+    figure {
+      max-width: 100%;
+    }
+  }
+
   footer {
     color: $clr-dark;
   }
@@ -109,10 +153,26 @@ body.dark {
     font-family: $font-heading;
   }
   h2 {
-    font-size: 1.5em;
+    font-size: 1.6em;
     font-weight: 500;
     line-height: 1.6;
     font-family: $font-subheading;
+  }
+  h3 {
+    // the category heading for blog.js
+    display: inline-block;
+    color: darken($clr-primary-darkmode, 10%);
+    background-color: $clr-dark;
+    font-size: 1.1em;
+    font-weight: 400;
+    font-family: $font-primary;
+    line-height: 1.6;
+    border-radius: 0.5vmax;
+    padding: 0 1.5vmin;
+    margin-top: 3.75vmin;
+    margin-bottom: 2.5vmin;
+    max-width: fit-content;
+    z-index: 2;
   }
   p,
   ul {
@@ -153,6 +213,34 @@ body.dark {
   .fa {
     color: $clr-primary-darkmode;
   }
+
+  // images
+  figure {
+    max-width: 60%;
+    border-radius: 2.5em;
+    margin: 5vh 0;
+    img {
+      border-radius: 2.5vmin;
+      color: $clr-bg-dark;
+    }
+    figcaption {
+      font-size: 0.9em;
+      color: $clr-bg-dark;
+      margin-top: -1em;
+      text-indent: 1em;
+    }
+  }
+  @media (max-width: $tablet-bp) {
+    figure {
+      max-width: 65%;
+    }
+  }
+  @media (max-width: $mobile-bp) {
+    figure {
+      max-width: 100%;
+    }
+  }
+
   footer {
     color: $clr-light;
   }
@@ -268,37 +356,15 @@ header {
 .pageContainer {
   display: flex;
   flex-direction: column;
-  .specialNav {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 100%;
-    margin-top: 1.1em;
-    margin-left: -0.25rem;
-    a {
-      display: block;
-      max-width: 32px;
-      max-height: 32px;
-      margin-bottom: 10vh;
-    }
-    img {
-      display: block;
-      max-width: 32px;
-      max-height: 32px;
-      margin-bottom: 10vh;
-    }
-  }
-  .homepageImage {
-    display: block;
-    position: relative;
-    max-width: 100%;
-    margin: 0;
-    padding: 0;
-  }
 }
 
 // blog page blog.js
 .blogContainer {
+  height: fit-content;
+  //padding: 2.5vmin;
+  outline: 0.25vmin solid transparentize($clr-primary-brightened, 0.675);
+  outline-offset: 2.5vmin;
+
   ul {
     list-style-type: none;
     margin: 0;
@@ -307,6 +373,7 @@ header {
       margin: inherit;
       padding: inherit;
       margin-bottom: 4vh;
+      margin-left: 0.5vmax;
       h2 {
         border-bottom: 2px solid $clr-secondary;
         margin-bottom: 1.25vh;
@@ -314,6 +381,7 @@ header {
         max-width: 65%;
       }
       p {
+        // the date in blog.js
         max-width: 65%;
         margin: inherit;
         padding: inherit;
@@ -370,15 +438,6 @@ header {
   }
   .blogContent {
     margin: 5vh 0;
-    figure {
-      max-width: 45%;
-      border-radius: 2.5em;
-      margin: 5vh 0;
-      img {
-        border-radius: 2.5vmin;
-        color: $clr-bg-dark;
-      }
-    }
     h2 {
       margin-top: 7.5vh;
       margin-bottom: 2.5vh;
@@ -391,15 +450,9 @@ header {
       p {
         max-width: 80%;
       }
-      figure {
-        max-width: 65%;
-      }
     }
     @media (max-width: $mobile-bp) {
       p {
-        max-width: 100%;
-      }
-      figure {
         max-width: 100%;
       }
     }
@@ -417,8 +470,7 @@ header {
   .flexContact {
     height: fit-content;
     padding: 2.5vmax;
-    border: 0.25vmin solid $clr-primary-brightened;
-    border-radius: 1em;
+    border: 0.25vmin solid transparentize($clr-primary-brightened, 0.675);
     a,
     span {
       display: flex;
@@ -445,6 +497,6 @@ header {
 //footer
 footer {
   display: flex;
-  margin-top: 5vmax;
+  margin-top: 7.5vmax;
   //border: 1px solid green; //debug
 }

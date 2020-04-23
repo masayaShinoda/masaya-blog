@@ -11,11 +11,13 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <div className="pageContainer">
-      <img
-        src="https://raw.githubusercontent.com/masayaShinoda/photography/master/src/assets/images/fulls/01.jpg"
-        alt="Coming soon"
-        className="homePageImage"
-      ></img>
+      <figure>
+        <img
+          src="https://raw.githubusercontent.com/masayaShinoda/photography/master/src/assets/images/fulls/01.jpg"
+          alt="Kamakura Buddha"
+        ></img>
+        <figcaption>Kamakura Buddha, Japan.</figcaption>
+      </figure>
     </div>
   </Layout>
 )

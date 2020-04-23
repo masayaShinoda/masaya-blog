@@ -34,8 +34,9 @@ const BlogPage = () => {
     <Layout>
       <SEO title="Blog" />
       <div className="pageContainer">
+        <h1>Blog</h1>
+        <h3 style={{ fontStyle: `italic` }}>Web Design</h3>
         <div className="blogContainer">
-          <h1>Blog</h1>
           <ul>
             {data.allMarkdownRemark.edges.map(edge => {
               return (

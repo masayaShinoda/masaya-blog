@@ -10,3 +10,10 @@ The three P's of web design are:
 * Prototype
 * Program
 
+<figure>
+    <img
+        src="https://raw.githubusercontent.com/masayaShinoda/photography/master/src/assets/images/fulls/01.jpg"
+        alt="Kamakura Buddha"
+    ></img>
+    <figcaption>Kamakura Buddha, Japan.</figcaption>
+</figure>

@@ -34,7 +34,7 @@ const AboutPage = () => {
               rel="noopener noreferrer"
             >
               <i className="fa fa-envelope"></i>
-              <p>info@breaddesignstudio.com</p>
+              <p>masayashida@gmail.com</p>
             </a>
             <span>
               <i className="fa fa-map-pin"></i>
