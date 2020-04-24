@@ -11,13 +11,9 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <div className="pageContainer">
-      <figure>
-        <img
-          src="https://raw.githubusercontent.com/masayaShinoda/photography/master/src/assets/images/fulls/01.jpg"
-          alt="Kamakura Buddha"
-        ></img>
-        <figcaption>Kamakura Buddha, Japan.</figcaption>
-      </figure>
+      <section>
+        <h1>Welcome to my site!</h1>
+      </section>
     </div>
   </Layout>
 )

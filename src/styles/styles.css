@@ -10813,7 +10813,7 @@ body.light h3 {
   line-height: 1.6;
   border-radius: 0.5vmax;
   padding: 0 1.5vmin;
-  margin-top: 3.75vmin;
+  margin-top: 5vmin;
   margin-bottom: 2.5vmin;
   max-width: -webkit-fit-content;
   max-width: -moz-fit-content;
@@ -10947,7 +10947,7 @@ body.dark h3 {
   line-height: 1.6;
   border-radius: 0.5vmax;
   padding: 0 1.5vmin;
-  margin-top: 3.75vmin;
+  margin-top: 5vmin;
   margin-bottom: 2.5vmin;
   max-width: -webkit-fit-content;
   max-width: -moz-fit-content;
@@ -11199,7 +11199,7 @@ header .headerLogo:hover::after {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
-  outline: 0.25vmin solid rgba(46, 96, 120, 0.325);
+  outline: 0.25vmin solid rgba(104, 135, 119, 0.625);
   outline-offset: 2.5vmin;
 }
 
@@ -11220,7 +11220,9 @@ header .headerLogo:hover::after {
   border-bottom: 2px solid #d1dbbd;
   margin-bottom: 1.25vh;
   line-height: 1.4;
-  max-width: 65%;
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
 }
 
 .blogContainer ul li p {
