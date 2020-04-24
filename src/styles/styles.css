@@ -10768,12 +10768,12 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 ::-moz-selection {
-  background-color: #688777;
+  background-color: #356f8b;
   color: #fcfff5;
 }
 
 ::selection {
-  background-color: #688777;
+  background-color: #356f8b;
   color: #fcfff5;
 }
 
@@ -10817,6 +10817,7 @@ body.light h3 {
   line-height: 1.6;
   letter-spacing: 2px;
   margin-bottom: 5vmin;
+  padding-top: 3.75vh;
   max-width: -webkit-fit-content;
   max-width: -moz-fit-content;
   max-width: fit-content;
@@ -10947,6 +10948,7 @@ body.dark h3 {
   line-height: 1.6;
   letter-spacing: 2px;
   margin-bottom: 5vmin;
+  padding-top: 3.75vh;
   max-width: -webkit-fit-content;
   max-width: -moz-fit-content;
   max-width: fit-content;
@@ -11209,12 +11211,12 @@ header .headerLogo:hover::after {
 }
 
 .pageContainer section a {
-  color: #3eb075;
+  color: #4aa475;
   text-decoration: underline;
 }
 
 .pageContainer section a:hover {
-  color: #569876;
+  color: #628d76;
   text-decoration: underline;
 }
 
@@ -11235,7 +11237,7 @@ header .headerLogo:hover::after {
 .blogContainer ul li {
   margin: inherit;
   padding: inherit;
-  margin-bottom: 4vh;
+  margin-bottom: 3.75vh;
   margin-left: 0.5vmax;
 }
 
@@ -11345,7 +11347,7 @@ header .headerLogo:hover::after {
   height: -moz-fit-content;
   height: fit-content;
   padding: 2.5vmax;
-  border: 0.25vmin solid rgba(46, 96, 120, 0.625);
+  border: 0.25vmin solid rgba(104, 135, 119, 0.625);
 }
 
 .aboutContainer .flexContact a,

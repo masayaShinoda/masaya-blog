@@ -22,7 +22,7 @@ $tablet-bp: 1023px;
 $mobile-bp: 480px;
 
 ::selection {
-  background-color: $clr-bg-dark;
+  background-color: lighten($clr-dark, 25%);
   color: $clr-light;
 }
 
@@ -58,6 +58,7 @@ body.light {
     line-height: 1.6;
     letter-spacing: 2px;
     margin-bottom: 5vmin; // cancel out the outline from blogContainer
+    padding-top: 3.75vh;
     max-width: fit-content;
   }
   p,
@@ -163,6 +164,7 @@ body.dark {
     line-height: 1.6;
     letter-spacing: 2px;
     margin-bottom: 5vmin; // cancel out the outline from blogContainer
+    padding-top: 3.75vh;
     max-width: fit-content;
   }
   p,
@@ -362,11 +364,11 @@ header {
   }
   section {
     a {
-      color: saturate($clr-bg-dark, 35%);
+      color: saturate($clr-bg-dark, 25%);
       text-decoration: underline;
     }
     a:hover {
-      color: saturate($clr-bg-dark, 15%);
+      color: saturate($clr-bg-dark, 5%);
       text-decoration: underline;
     }
   }
@@ -386,7 +388,7 @@ header {
     li {
       margin: inherit;
       padding: inherit;
-      margin-bottom: 4vh;
+      margin-bottom: 3.75vh;
       margin-left: 0.5vmax;
       h2 {
         border-bottom: 2px solid $clr-secondary;
@@ -484,7 +486,7 @@ header {
   .flexContact {
     height: fit-content;
     padding: 2.5vmax;
-    border: 0.25vmin solid transparentize($clr-primary-brightened, 0.375);
+    border: 0.25vmin solid transparentize($clr-bg-dark, 0.375);
     a,
     span {
       display: flex;
