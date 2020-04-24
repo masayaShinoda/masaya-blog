@@ -4,6 +4,7 @@ module.exports = {
     description: `A place for writing down and sharing my thoughts. Hopefully you'll find something of use.`,
     author: `Masaya Shida`,
     copyright: `Masaya Shida`,
+    siteUrl: `https://masayablog.netlify.app`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -37,6 +38,7 @@ module.exports = {
       },
     },
     "gatsby-transformer-remark",
+    `gatsby-plugin-advanced-sitemap`,
 
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
