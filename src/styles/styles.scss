@@ -14,7 +14,7 @@ $clr-secondary: #d1dbbd;
 $clr-light: #fcfff5;
 $clr-dark: darken(#193441, 5%);
 $clr-bg-dark: darken(#91aa9d, 15%);
-$font-heading: Merriweather, sans-serif;
+$font-heading: Merriweather, serif;
 $font-subheading: Oswald, sans-serif;
 $font-primary: Roboto, sans-serif;
 $desktop-bp: 1024px;
@@ -127,7 +127,28 @@ body.light {
       max-width: 100%;
     }
   }
-
+  blockquote {
+    background: darken($clr-light, 5%);
+    border-left: 2px solid $clr-bg-dark;
+    padding: 1.5vmax 2vmax;
+    margin-left: 1.1em;
+    max-width: 65%;
+    p {
+      font-family: $font-heading;
+      font-size: 0.9em;
+      font-weight: 400;
+    }
+  }
+  @media (max-width: $tablet-bp) {
+    blockquote {
+      max-width: 80%;
+    }
+  }
+  @media (max-width: $mobile-bp) {
+    blockquote {
+      max-width: 100%;
+    }
+  }
   footer {
     color: $clr-dark;
   }
@@ -233,7 +254,28 @@ body.dark {
       max-width: 100%;
     }
   }
-
+  blockquote {
+    background: lighten($clr-dark, 5%);
+    border-left: 2px solid $clr-bg-dark;
+    padding: 1.5vmax 2vmax;
+    margin-left: 1.1em;
+    max-width: 65%;
+    p {
+      font-family: $font-heading;
+      font-size: 0.9em;
+      font-weight: 400;
+    }
+  }
+  @media (max-width: $tablet-bp) {
+    blockquote {
+      max-width: 80%;
+    }
+  }
+  @media (max-width: $mobile-bp) {
+    blockquote {
+      max-width: 100%;
+    }
+  }
   footer {
     color: $clr-light;
   }
@@ -241,9 +283,6 @@ body.dark {
 
 // header component
 header {
-  //margin-bottom: 1.45rem;
-  //box-shadow: 0 1rem 5rem rgba(0, 0, 0, 0.075);
-  //background: $clr-light;
   margin: 0 auto;
   margin-bottom: 3.75vh;
   max-width: 960px;
@@ -382,6 +421,8 @@ header {
   outline-offset: 2.5vmin;
 
   ul {
+    display: flex;
+    flex-direction: column-reverse;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -404,7 +445,7 @@ header {
         color: $clr-bg-dark;
       }
       a:hover p {
-        color: $clr-bg-dark;
+        color: darken($clr-bg-dark, 15%);
       }
       @media (max-width: $tablet-bp) {
         h2 {
@@ -434,7 +475,7 @@ header {
     font-size: 2em;
     line-height: 1.4;
     border-bottom: 2px solid $clr-secondary;
-    max-width: 65%;
+    max-width: fit-content;
   }
   @media (max-width: $tablet-bp) {
     .blogPostTitle {
@@ -459,16 +500,22 @@ header {
       margin-bottom: 2.5vh;
       max-width: 80%;
     }
-    p {
+    p,
+    ul,
+    ol {
       max-width: 65%;
     }
     @media (max-width: $tablet-bp) {
-      p {
+      p,
+      ul,
+      ol {
         max-width: 80%;
       }
     }
     @media (max-width: $mobile-bp) {
-      p {
+      p,
+      ul,
+      ol {
         max-width: 100%;
       }
     }

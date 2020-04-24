@@ -10798,7 +10798,7 @@ body.light h1 {
   font-weight: 700;
   line-height: 1.4;
   margin-bottom: 0.5em;
-  font-family: Merriweather, sans-serif;
+  font-family: Merriweather, serif;
 }
 
 body.light h2 {
@@ -10813,7 +10813,7 @@ body.light h3 {
   color: rgba(25, 52, 65, 0.75);
   font-size: 1.1em;
   font-weight: 400;
-  font-family: Merriweather, sans-serif;
+  font-family: Merriweather, serif;
   line-height: 1.6;
   letter-spacing: 2px;
   margin-bottom: 5vmin;
@@ -10904,6 +10904,32 @@ body.light figure figcaption {
   }
 }
 
+body.light blockquote {
+  background: #f4ffdc;
+  border-left: 2px solid #688777;
+  padding: 1.5vmax 2vmax;
+  margin-left: 1.1em;
+  max-width: 65%;
+}
+
+body.light blockquote p {
+  font-family: Merriweather, serif;
+  font-size: 0.9em;
+  font-weight: 400;
+}
+
+@media (max-width: 1023px) {
+  body.light blockquote {
+    max-width: 80%;
+  }
+}
+
+@media (max-width: 480px) {
+  body.light blockquote {
+    max-width: 100%;
+  }
+}
+
 body.light footer {
   color: #12252f;
 }
@@ -10929,7 +10955,7 @@ body.dark h1 {
   font-weight: 700;
   line-height: 1.4;
   margin-bottom: 0.5em;
-  font-family: Merriweather, sans-serif;
+  font-family: Merriweather, serif;
 }
 
 body.dark h2 {
@@ -10944,7 +10970,7 @@ body.dark h3 {
   color: rgba(228, 239, 245, 0.75);
   font-size: 1.1em;
   font-weight: 400;
-  font-family: Merriweather, sans-serif;
+  font-family: Merriweather, serif;
   line-height: 1.6;
   letter-spacing: 2px;
   margin-bottom: 5vmin;
@@ -11035,6 +11061,32 @@ body.dark figure figcaption {
   }
 }
 
+body.dark blockquote {
+  background: #193441;
+  border-left: 2px solid #688777;
+  padding: 1.5vmax 2vmax;
+  margin-left: 1.1em;
+  max-width: 65%;
+}
+
+body.dark blockquote p {
+  font-family: Merriweather, serif;
+  font-size: 0.9em;
+  font-weight: 400;
+}
+
+@media (max-width: 1023px) {
+  body.dark blockquote {
+    max-width: 80%;
+  }
+}
+
+@media (max-width: 480px) {
+  body.dark blockquote {
+    max-width: 100%;
+  }
+}
+
 body.dark footer {
   color: #fcfff5;
 }
@@ -11074,7 +11126,7 @@ header div .headerNavSection {
 }
 
 header div .headerNavSection a {
-  font-family: Merriweather, sans-serif;
+  font-family: Merriweather, serif;
   margin-right: 0.75em;
   padding-right: 0.75em;
   border-right: 2px solid #d1dbbd;
@@ -11229,6 +11281,13 @@ header .headerLogo:hover::after {
 }
 
 .blogContainer ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -11258,7 +11317,7 @@ header .headerLogo:hover::after {
 }
 
 .blogContainer ul li a:hover p {
-  color: #688777;
+  color: #475b51;
 }
 
 @media (max-width: 1023px) {
@@ -11285,7 +11344,9 @@ header .headerLogo:hover::after {
   font-size: 2em;
   line-height: 1.4;
   border-bottom: 2px solid #d1dbbd;
-  max-width: 65%;
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
 }
 
 @media (max-width: 1023px) {
@@ -11316,18 +11377,24 @@ header .headerLogo:hover::after {
   max-width: 80%;
 }
 
-.blogTemplate .blogContent p {
+.blogTemplate .blogContent p,
+.blogTemplate .blogContent ul,
+.blogTemplate .blogContent ol {
   max-width: 65%;
 }
 
 @media (max-width: 1023px) {
-  .blogTemplate .blogContent p {
+  .blogTemplate .blogContent p,
+  .blogTemplate .blogContent ul,
+  .blogTemplate .blogContent ol {
     max-width: 80%;
   }
 }
 
 @media (max-width: 480px) {
-  .blogTemplate .blogContent p {
+  .blogTemplate .blogContent p,
+  .blogTemplate .blogContent ul,
+  .blogTemplate .blogContent ol {
     max-width: 100%;
   }
 }
