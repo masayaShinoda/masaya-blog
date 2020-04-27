@@ -103,17 +103,19 @@ body.light {
 
   // images
   figure {
-    max-width: 60%;
+    max-width: 45%;
     border-radius: 2.5em;
-    margin: 5vh 0;
+    margin: 4.25vh 0;
     img {
-      border-radius: 2.5vmin;
+      //border-radius: 2.5vmin;
       color: $clr-bg-dark;
+      outline: 0.25vmin solid transparentize($clr-bg-dark, 0.375);
+      outline-offset: 2.5vmin;
     }
     figcaption {
       font-size: 0.9em;
       color: $clr-bg-dark;
-      margin-top: -1em;
+      //margin-top: -1em;
       text-indent: 1em;
     }
   }
@@ -130,12 +132,12 @@ body.light {
   blockquote {
     background: darken($clr-light, 5%);
     border-left: 2px solid $clr-bg-dark;
-    padding: 1.5vmax 2vmax;
-    margin-left: 1.1em;
+    padding: 1.5vmax;
+    padding-left: 2em;
     max-width: 65%;
     p {
       font-family: $font-heading;
-      font-size: 0.9em;
+      font-size: 0.8em;
       font-weight: 400;
     }
   }
@@ -230,17 +232,19 @@ body.dark {
 
   // images
   figure {
-    max-width: 60%;
+    max-width: 45%;
     border-radius: 2.5em;
-    margin: 5vh 0;
+    margin: 4.25vh 0;
     img {
-      border-radius: 2.5vmin;
+      //border-radius: 2.5vmin;
       color: $clr-bg-dark;
+      outline: 0.25vmin solid transparentize($clr-bg-dark, 0.375);
+      outline-offset: 2.5vmin;
     }
     figcaption {
       font-size: 0.9em;
       color: $clr-bg-dark;
-      margin-top: -1em;
+      //margin-top: -1em;
       text-indent: 1em;
     }
   }
@@ -257,12 +261,12 @@ body.dark {
   blockquote {
     background: lighten($clr-dark, 5%);
     border-left: 2px solid $clr-bg-dark;
-    padding: 1.5vmax 2vmax;
-    margin-left: 1.1em;
+    padding: 1.5vmax;
+    padding-left: 2em;
     max-width: 65%;
     p {
       font-family: $font-heading;
-      font-size: 0.9em;
+      font-size: 0.8em;
       font-weight: 400;
     }
   }
@@ -416,13 +420,11 @@ header {
 // blog page blog.js
 .blogContainer {
   height: fit-content;
-  //padding: 2.5vmin;
   outline: 0.25vmin solid transparentize($clr-bg-dark, 0.375);
   outline-offset: 2.5vmin;
-
   ul {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -482,7 +484,6 @@ header {
       font-size: 2em;
       line-height: 1.4;
       border-bottom: 2px solid $clr-secondary;
-      max-width: 80%;
     }
   }
   @media (max-width: $mobile-bp) {
@@ -490,14 +491,20 @@ header {
       font-size: 2em;
       line-height: 1.4;
       border-bottom: 2px solid $clr-secondary;
-      max-width: 100%;
     }
   }
   .blogContent {
     margin: 5vh 0;
+    h1 {
+      font-size: 1.6em;
+      // template blog h1
+      //font-size: 2em;
+      // margin: 0.8em 0;
+    }
     h2 {
-      margin-top: 7.5vh;
-      margin-bottom: 2.5vh;
+      font-size: 1.4em;
+      //margin: 2.5vh;
+      margin: 0.5em 0;
       max-width: 80%;
     }
     p,

@@ -10875,20 +10875,20 @@ body.light .fa {
 }
 
 body.light figure {
-  max-width: 60%;
+  max-width: 45%;
   border-radius: 2.5em;
-  margin: 5vh 0;
+  margin: 4.25vh 0;
 }
 
 body.light figure img {
-  border-radius: 2.5vmin;
   color: #688777;
+  outline: 0.25vmin solid rgba(104, 135, 119, 0.625);
+  outline-offset: 2.5vmin;
 }
 
 body.light figure figcaption {
   font-size: 0.9em;
   color: #688777;
-  margin-top: -1em;
   text-indent: 1em;
 }
 
@@ -10907,14 +10907,14 @@ body.light figure figcaption {
 body.light blockquote {
   background: #f4ffdc;
   border-left: 2px solid #688777;
-  padding: 1.5vmax 2vmax;
-  margin-left: 1.1em;
+  padding: 1.5vmax;
+  padding-left: 2em;
   max-width: 65%;
 }
 
 body.light blockquote p {
   font-family: Merriweather, serif;
-  font-size: 0.9em;
+  font-size: 0.8em;
   font-weight: 400;
 }
 
@@ -11032,20 +11032,20 @@ body.dark .fa {
 }
 
 body.dark figure {
-  max-width: 60%;
+  max-width: 45%;
   border-radius: 2.5em;
-  margin: 5vh 0;
+  margin: 4.25vh 0;
 }
 
 body.dark figure img {
-  border-radius: 2.5vmin;
   color: #688777;
+  outline: 0.25vmin solid rgba(104, 135, 119, 0.625);
+  outline-offset: 2.5vmin;
 }
 
 body.dark figure figcaption {
   font-size: 0.9em;
   color: #688777;
-  margin-top: -1em;
   text-indent: 1em;
 }
 
@@ -11064,14 +11064,14 @@ body.dark figure figcaption {
 body.dark blockquote {
   background: #193441;
   border-left: 2px solid #688777;
-  padding: 1.5vmax 2vmax;
-  margin-left: 1.1em;
+  padding: 1.5vmax;
+  padding-left: 2em;
   max-width: 65%;
 }
 
 body.dark blockquote p {
   font-family: Merriweather, serif;
-  font-size: 0.9em;
+  font-size: 0.8em;
   font-weight: 400;
 }
 
@@ -11285,9 +11285,9 @@ header .headerLogo:hover::after {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: column-reverse;
-          flex-direction: column-reverse;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -11354,7 +11354,6 @@ header .headerLogo:hover::after {
     font-size: 2em;
     line-height: 1.4;
     border-bottom: 2px solid #d1dbbd;
-    max-width: 80%;
   }
 }
 
@@ -11363,7 +11362,6 @@ header .headerLogo:hover::after {
     font-size: 2em;
     line-height: 1.4;
     border-bottom: 2px solid #d1dbbd;
-    max-width: 100%;
   }
 }
 
@@ -11371,9 +11369,13 @@ header .headerLogo:hover::after {
   margin: 5vh 0;
 }
 
+.blogTemplate .blogContent h1 {
+  font-size: 1.6em;
+}
+
 .blogTemplate .blogContent h2 {
-  margin-top: 7.5vh;
-  margin-bottom: 2.5vh;
+  font-size: 1.4em;
+  margin: 0.5em 0;
   max-width: 80%;
 }
 
