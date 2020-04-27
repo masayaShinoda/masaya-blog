@@ -1,6 +1,7 @@
 ---
 title: "Growing Up Fatherless"
 date: "24-04-2020"
+tags: ["life", "psychology"]
 ---
 
 <figure>
