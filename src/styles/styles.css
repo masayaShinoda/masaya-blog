@@ -11301,12 +11301,12 @@ header .headerLogo:hover::after {
 }
 
 .blogContainer ul li h2 {
-  border-bottom: 2px solid #d1dbbd;
-  margin-bottom: 1.25vh;
-  line-height: 1.4;
   max-width: -webkit-fit-content;
   max-width: -moz-fit-content;
   max-width: fit-content;
+  border-bottom: 2px solid #d1dbbd;
+  margin-bottom: 1.25vh;
+  line-height: 1.4;
 }
 
 .blogContainer ul li p {
@@ -11322,21 +11322,13 @@ header .headerLogo:hover::after {
 
 @media (max-width: 1023px) {
   .blogContainer ul li h2 {
-    max-width: 80%;
     font-size: 1.5em;
-  }
-  .blogContainer ul li p {
-    max-width: 80%;
   }
 }
 
 @media (max-width: 480px) {
   .blogContainer ul li h2 {
-    max-width: 90%;
     font-size: 1.5em;
-  }
-  .blogContainer ul li p {
-    max-width: 90%;
   }
 }
 
@@ -11370,7 +11362,8 @@ header .headerLogo:hover::after {
 }
 
 .blogTemplate .blogContent h1 {
-  font-size: 1.6em;
+  font-size: 1.8em;
+  margin: 0.8em 0 0.5em;
 }
 
 .blogTemplate .blogContent h2 {
@@ -11383,6 +11376,7 @@ header .headerLogo:hover::after {
 .blogTemplate .blogContent ul,
 .blogTemplate .blogContent ol {
   max-width: 65%;
+  margin-bottom: 1em;
 }
 
 @media (max-width: 1023px) {
@@ -11405,10 +11399,13 @@ header .headerLogo:hover::after {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .aboutContainer .flexAbout {
-  margin-right: 2.5vmax;
+  margin-right: 2.5vw;
+  max-width: 45%;
 }
 
 .aboutContainer .flexContact {
@@ -11439,6 +11436,17 @@ header .headerLogo:hover::after {
   color: #193441;
 }
 
+@media (max-width: 1023px) {
+  .aboutContainer {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .aboutContainer .flexAbout {
+    padding: 0;
+    max-width: 80%;
+  }
+}
+
 @media (max-width: 480px) {
   .aboutContainer {
     -ms-flex-wrap: wrap;
@@ -11446,6 +11454,7 @@ header .headerLogo:hover::after {
   }
   .aboutContainer .flexAbout {
     padding: 0;
+    max-width: 100%;
   }
 }
 
