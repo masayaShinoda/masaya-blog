@@ -1,6 +1,7 @@
 backend:
   name: github
   repo: masayaShinoda/masaya-blog
+  branch: master
 
 media_folder: static/assets
 public_folder: /assets
