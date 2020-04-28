@@ -11285,9 +11285,9 @@ header .headerLogo:hover::after {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -11371,6 +11371,7 @@ header .headerLogo:hover::after {
 
 .blogTemplate .blogContent h1 {
   font-size: 1.6em;
+  font-family: Oswald, sans-serif;
 }
 
 .blogTemplate .blogContent h2 {

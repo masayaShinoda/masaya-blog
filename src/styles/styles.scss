@@ -424,7 +424,7 @@ header {
   outline-offset: 2.5vmin;
   ul {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -497,6 +497,7 @@ header {
     margin: 5vh 0;
     h1 {
       font-size: 1.6em;
+      font-family: $font-subheading;
       // template blog h1
       //font-size: 2em;
       // margin: 0.8em 0;
