@@ -31,6 +31,32 @@ const Layout = ({ children }) => {
 
   return (
     <div className="parent">
+      <Helmet>
+        {/*<!-- Primary Meta Tags -->*/}
+        <title>Masaya's Blog</title>
+        <meta name="title" content="Masaya's Blog" />
+        <meta
+          name="description"
+          content="Here is where I articulate and share my thoughts. Hope you find something interesting to read while you're here 😄.
+
+I also write guides and tips for fellow beginner web designers."
+        />
+
+        {/* <!-- Open Graph / Facebook --> */}
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://masayablog.netlify.com/" />
+        <meta property="og:title" content="Masaya's Blog" />
+        <meta
+          property="og:description"
+          content="Here is where I articulate and share my thoughts. Hope you find something interesting to read while you're here 😄.
+
+I also write guides and tips for fellow beginner web designers."
+        />
+        <meta
+          property="og:image"
+          content="https://raw.githubusercontent.com/masayaShinoda/photography/master/src/assets/images/angkor.jpg"
+        />
+      </Helmet>
       <Header siteTitle={data.site.siteMetadata.title} />
       <div
         style={{
