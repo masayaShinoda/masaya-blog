@@ -48,7 +48,7 @@ I also write guides and tips for fellow beginner web designers."
     />
     <div className="pageContainer">
       <section>
-        <h1>Welcome to my site!</h1>
+        <h1>Welcome!</h1>
         <p>
           Here is where I articulate and share my thoughts. Hope you find
           something interesting to <Link to="/blog">read</Link> while you're
