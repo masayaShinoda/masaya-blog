@@ -11322,7 +11322,6 @@ header .headerLogo:hover::after {
 
 @media (max-width: 1023px) {
   .blogContainer ul li h2 {
-    max-width: 80%;
     font-size: 1.5em;
   }
   .blogContainer ul li p {
@@ -11332,7 +11331,6 @@ header .headerLogo:hover::after {
 
 @media (max-width: 480px) {
   .blogContainer ul li h2 {
-    max-width: 90%;
     font-size: 1.5em;
   }
   .blogContainer ul li p {
