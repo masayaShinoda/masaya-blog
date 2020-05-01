@@ -30,18 +30,19 @@ const IndexPage = () => (
         property="og:image"
         content="https://raw.githubusercontent.com/masayaShinoda/photography/master/src/assets/images/angkor.jpg"
       />
+      <SEO
+        title="Home"
+        keywords={[
+          `home`,
+          `masaya`,
+          `masaya shida`,
+          `blog`,
+          `masayablog`,
+          `masaya's blog`,
+          `masaya blog`,
+        ]}
+      />
     </Helmet>
-    <SEO
-      title="Home"
-      keywords={[
-        `home`,
-        `masaya`,
-        `masaya shida`,
-        `blog`,
-        `masayablog`,
-        `masaya's blog`,
-      ]}
-    />
     <div className="pageContainer">
       <section>
         <h1>Welcome!</h1>

@@ -32,7 +32,18 @@ const BlogPage = () => {
 
   return (
     <Layout>
-      <SEO title="Blog" />
+      <SEO
+        title="Blog"
+        keywords={[
+          `home`,
+          `masaya`,
+          `masaya shida`,
+          `blog`,
+          `masayablog`,
+          `masaya's blog`,
+          `masaya blog`,
+        ]}
+      />
       <div className="pageContainer">
         <h1>Blog</h1>
         {/*<h3 style={{ fontStyle: `italic` }} id="web_design">
