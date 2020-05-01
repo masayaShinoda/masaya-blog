@@ -2,6 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Masaya's Blog`,
     description: `A place for writing down and sharing my thoughts. Hopefully you'll find something of use.`,
+    url: `https://masayablog.netlify.app`,
     author: `Masaya Shida`,
     copyright: `Masaya Shida`,
     siteUrl: `https://masayablog.netlify.app`,
