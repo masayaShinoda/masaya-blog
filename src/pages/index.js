@@ -29,6 +29,11 @@ const IndexPage = () => (
         property="og:image"
         content="https://raw.githubusercontent.com/masayaShinoda/photography/master/src/assets/images/angkor.jpg"
       />
+
+      <meta
+        name="google-site-verification"
+        content="oGtdccjbXYieyxzBCZTLAhlNJh9Cbbpr82fUirt1lHc"
+      />
       <SEO
         title="Home"
         keywords={[

@@ -10878,6 +10878,7 @@ body.light figure {
   max-width: 45%;
   border-radius: 2.5em;
   margin: 4.25vh 0;
+  margin-left: 2.5vmin;
 }
 
 body.light figure img {
