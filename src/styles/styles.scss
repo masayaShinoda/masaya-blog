@@ -420,11 +420,12 @@ header {
 // blog page blog.js
 .blogContainer {
   height: fit-content;
-  outline: 0.25vmin solid transparentize($clr-bg-dark, 0.375);
-  outline-offset: 2.5vmin;
+  //outline: 0.25vmin solid transparentize($clr-bg-dark, 0.375);
+  //outline-offset: 2.5vmin;
   ul {
     display: flex;
-    flex-direction: column-reverse;
+    //flex-direction: column-reverse;
+    flex-direction: column;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -432,7 +433,7 @@ header {
       margin: inherit;
       padding: inherit;
       margin-bottom: 3.75vh;
-      margin-left: 0.5vmax;
+      //margin-left: 0.5vmax;
       h2 {
         border-bottom: 2px solid $clr-secondary;
         margin-bottom: 1.25vh;

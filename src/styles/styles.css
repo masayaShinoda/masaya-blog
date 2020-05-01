@@ -11276,8 +11276,6 @@ header .headerLogo:hover::after {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
-  outline: 0.25vmin solid rgba(104, 135, 119, 0.625);
-  outline-offset: 2.5vmin;
 }
 
 .blogContainer ul {
@@ -11285,9 +11283,9 @@ header .headerLogo:hover::after {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: column-reverse;
-          flex-direction: column-reverse;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -11297,7 +11295,6 @@ header .headerLogo:hover::after {
   margin: inherit;
   padding: inherit;
   margin-bottom: 3.75vh;
-  margin-left: 0.5vmax;
 }
 
 .blogContainer ul li h2 {

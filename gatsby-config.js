@@ -27,9 +27,10 @@ module.exports = {
         theme_color: `#3E606F`,
         display: `minimal-ui`,
         icon: `src/images/icon.png`, // This path is relative to the root of the site.
+        cache_busting_mode: `none`,
       },
     },
-    "gatsby-plugin-dark-mode",
+    `gatsby-plugin-dark-mode`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -37,12 +38,19 @@ module.exports = {
         path: `${__dirname}/src/`, //tells gatsby to source content from filesystem, which is src dir
       },
     },
-    "gatsby-transformer-remark",
+    `gatsby-transformer-remark`,
     `gatsby-plugin-advanced-sitemap`,
     `gatsby-plugin-netlify-cms`,
 
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    {
+      resolve: "gatsby-plugin-offline",
+      options: {
+        workboxConfig: {
+          globPatterns: ["**/*"],
+        },
+      },
+    },
   ],
 }

@@ -3,13 +3,13 @@ title: "Growing Up Fatherless"
 date: "24-04-2020"
 ---
 
-<figure>
-    <img src="https://raw.githubusercontent.com/masayaShinoda/photography/master/src/assets/images/fulls/05.jpg" alt="Seas of southern Cambodia"></img>
-</figure>
+*A open letter to those who grew up, or is growing up, in single-parent households.*
 
-> *"Effort and courage are not enough without purpose and direction."* — John F. Kennedy 
+<figure><img src="https://raw.githubusercontent.com/masayaShinoda/photography/master/src/assets/images/fulls/05.jpg" alt="Seas of southern Cambodia"></img>
 
+<!--- > *"Effort and courage are not enough without purpose and direction."* — John F. Kennedy --->
 Notes:
+
 * For those who grew up in single-parent households, what spheres of infuence would they expose themselves to gain access to the knowledge that a good father figure would provide to them in the first place. 
 * To some degree, a good mother can provide that. Although it's hard for one person to be everything.
 * It's very difficult for women to make the shift from merciful to encouraging disciplinarian.
@@ -18,3 +18,4 @@ Notes:
 * The world is a dismal place, and it is very difficult to be a courageous person unless you have your father in body and spirit to encourage you.
 * Fathers can encourage their children to have the best versions of themselves to emerge. 
 * Negative consequences of fatherlessness:  71% of high school dropouts, 40% more likely to repeat a grade, 75% of all adolescent patients in chemical abuse centers, 70% of juveniles, 80% of children that exhibit behavioral disorders, 63% of youth suicide, 85% of prison population. 
+
