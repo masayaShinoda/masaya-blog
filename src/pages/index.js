@@ -11,7 +11,6 @@ const IndexPage = () => (
   <Layout>
     <Helmet>
       {/*<!-- Primary Meta Tags -->*/}
-      <title>Masaya's Blog</title>
       <meta name="title" content="Masaya's Blog" />
       <meta
         name="description"
