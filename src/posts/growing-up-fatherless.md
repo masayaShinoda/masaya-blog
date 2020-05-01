@@ -3,11 +3,9 @@ title: "Growing Up Fatherless"
 date: "24-04-2020"
 ---
 
-*A open letter to those who grew up, or is growing up, in single-parent households.*
+##A open letter to those who grew up, or is growing up, in single-parent households.
 
-<figure><img src="https://raw.githubusercontent.com/masayaShinoda/photography/master/src/assets/images/fulls/05.jpg" alt="Seas of southern Cambodia"></img></figure>
-
-> *"Effort and courage are not enough without purpose and direction."* — John F. Kennedy
+<figure><img src="https://raw.githubusercontent.com/masayaShinoda/photography/master/src/assets/images/fulls/05.jpg" alt="Seas of southern Cambodia"></img><figcaption><i>"Effort and courage are not enough without purpose and direction."</i> — John F. Kennedy</figcaption></figure>
 
 For those who grew up in single-parent households, what spheres of influence would they expose themselves to gain access to the knowledge that a good father figure would provide to them in the first place.
 

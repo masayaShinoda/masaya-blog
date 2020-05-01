@@ -45,7 +45,7 @@ body.light {
   h2 {
     font-size: 1.6em;
     font-weight: 500;
-    line-height: 1.6;
+    line-height: 1.4;
     font-family: $font-subheading;
   }
   h3 {
@@ -117,7 +117,6 @@ body.light {
       font-size: 0.9em;
       color: $clr-bg-dark;
       //margin-top: -1em;
-      text-indent: 1em;
     }
   }
   @media (max-width: $tablet-bp) {
@@ -495,26 +494,31 @@ header {
     }
   }
   .blogContent {
-    margin: 5vh 0;
+    margin: 3.75vmin 0;
     h1 {
       font-size: 1.6em;
-      font-family: $font-subheading;
+      font-family: $font-heading;
       // template blog h1
       //font-size: 2em;
       // margin: 0.8em 0;
     }
     h2 {
       font-size: 1.4em;
+      font-family: $font-primary;
+      font-weight: 700;
       //margin: 2.5vh;
       margin: 0.5em 0;
-      max-width: 80%;
     }
+    h1,
+    h2,
     p,
     ul,
     ol {
       max-width: 65%;
     }
     @media (max-width: $tablet-bp) {
+      h1,
+      h2,
       p,
       ul,
       ol {
@@ -522,6 +526,8 @@ header {
       }
     }
     @media (max-width: $mobile-bp) {
+      h1,
+      h2,
       p,
       ul,
       ol {
