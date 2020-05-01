@@ -10,7 +10,18 @@ import aboutStyles from "../styles/styles.css"
 const AboutPage = () => {
   return (
     <Layout>
-      <SEO title="About" keywords={[`about`]} />
+      <SEO
+        title="About"
+        keywords={[
+          `about`,
+          `masaya`,
+          `masaya shida`,
+          `blog`,
+          `masayablog`,
+          `masaya's blog`,
+          `masaya blog`,
+        ]}
+      />
       <div className="aboutContainer">
         <div className="flexAbout">
           <h1>About</h1>
