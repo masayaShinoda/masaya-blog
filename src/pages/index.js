@@ -56,10 +56,6 @@ const IndexPage = () => (
           here 😄.{" "}
         </p>
         <p>
-          I also write <Link to="/blog#web_design">guides and tips</Link> for
-          fellow beginner web designers.
-        </p>
-        <p>
           Are you into photography? Give this other{" "}
           <a href="https://masayaphoto.netlify.app">site</a> a visit 📷.
         </p>
