@@ -11047,7 +11047,6 @@ body.dark figure img {
 body.dark figure figcaption {
   font-size: 0.9em;
   color: #688777;
-  text-indent: 1em;
 }
 
 @media (max-width: 1023px) {
