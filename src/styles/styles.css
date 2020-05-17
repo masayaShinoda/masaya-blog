@@ -11373,6 +11373,7 @@ header .headerLogo:hover::after {
   font-size: 1.4em;
   font-family: Roboto, sans-serif;
   font-weight: 700;
+  line-height: 1.3;
   margin: 0.5em 0;
 }
 

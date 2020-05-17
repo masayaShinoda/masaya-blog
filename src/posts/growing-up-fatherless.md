@@ -19,13 +19,7 @@ Sure, some of us might not have the same luxuries as our traditional family coun
 
 ## For those who grew up in single-parent households, what spheres of influence would they expose themselves to gain access to the knowledge that a good father figure would provide to them in the first place?  
 
-
-
-
-
-
 ###*notes*
-
 
 * For those who grew up in single-parent households, what spheres of influence would they expose themselves to gain access to the knowledge that a good father figure would provide to them in the first place.
 
