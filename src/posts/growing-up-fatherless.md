@@ -7,10 +7,7 @@ date: "24-04-2020"
 
 ## How to deal with the tendency to victimize oneself. 
 
-Empirical data supports the proposition that kids do much better with two parents. In the United States, for example, studies have shown that 71% of high school dropouts, 63% of youth suicide, and 85% of the prison population grew up in fatherless homes. More often than not, people do much better with two parents, both mentally and economically. If you were not already aware of these facts already, after reading it you have a good chance of feeling sad, perplexed and even injustice.
-
-
-
+Empirical data supports the proposition that kids do much better with two parents. In the United States, for example, studies have shown that 71% of high school dropouts, 63% of youth suicide, and 85% of the prison population grew up in fatherless homes. More often than not, people do much better with two parents, both mentally and economically. If you were not already aware of these facts already, after reading it you have a good chance of feeling sad, perplexed, and even injustice.
 
 However, this is not to say that you can't succeed in life without two parents. In fact, there are plenty of people who grew up in single-parent households who are now hyper successful in their careers, or are living a fulfilling life after finding love. A quick internet search can give you an endless list of athletes, celebrities, entrepreneurs, and people from different walks of life who excel at what they do. 
 
@@ -26,11 +23,18 @@ I truly wish to encourage you to play the hand you were dealt to the best of you
   
  Alternatively, you might be someone like me and grew up with an overprotective parent who's set up walls and barriers—that many times restrict your own ability to grow up and be useful—without another parent acting a counterbalance. If you're in such a situation, you have to find a way to voluntarily expose yourself to uncertainty and insecurity because it is not at all obvious the long term consequences of overprotectiveness.
  
- With fatherlessness, you could argue that, people can find this masculine  that from friends. They generate the missing masculinity in a gang, but that's not so good because they're just stupid kids and they're not in the right position to exercise any authority over themselves
+ With fatherlessness, you could argue that people can find their missing guidance from friends. They generate the missing masculinity in a gang, but that's not so good because the odds of them presenting the negative aspects of masculinity—uncontrolled aggression and violence as a means to an end—are high. More often than not, they aren't even in the right position to exercise any authority over themselves.
+ 
+ ## Is growing up with no father better than a bad father?
+ 
+ > "While almost any man can father a child, there is so much more to the important role of being dad in a child's life" — [Dr. Gail Gross, child development and human behavior expoert.](https://www.huffpost.com/author/dr-gail-gross)
 
-###*notes*
+I won't be able to do this question justice, although it is very much worth asking.
 
-* Kids who lack fathers: to some degree they can find that from friends. They generate the missing masculinity in a gang, but that's not so good because they're just stupid kids and they're not in the right position to exercise any authority over themselves
+If you did grow up with an abusive father (by your own definition), or has someone close to you who's been through similar, please do share your thoughts either by [email](mailto:masayashida@gmail.com) or by commenting below. 
+
+
+###*to cover*
 
 * The world is a dismal place, and it is very difficult to be a courageous person unless you have your father in body and spirit to encourage you.
 
@@ -38,8 +42,9 @@ I truly wish to encourage you to play the hand you were dealt to the best of you
 
 * Negative consequences of fatherlessness:  71% of high school dropouts, 40% more likely to repeat a grade, 75% of all adolescent patients in chemical abuse centers, 70% of juveniles, 80% of children that exhibit behavioral disorders, 63% of youth suicide, 85% of prison population.
 
-## References 
+## References and further reading
 
 * https://www.brookings.edu/opinions/are-children-raised-with-absent-fathers-worse-off/
-
+* https://www.huffpost.com/entry/the-important-role-of-dad_b_5489093
+* https://mcadams.posc.mu.edu/posc4216/Fathers%20and%20Their%20Impact%20on%20Children%27s%20Well-Being.htm
 
