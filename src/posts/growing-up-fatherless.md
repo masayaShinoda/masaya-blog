@@ -14,10 +14,11 @@ However, this is not to say that you can't succeed in life without two parents. 
 I truly wish to encourage you to play the hand you were dealt to the best of your ability. Although I am in no position to judge, and do not know the specifics of, your current condition, I can say with a reasonable amount of certainty that there were many remarkable individuals in history, and the present day, who were under much worse circumstances when they were growing up. An inspirational example, [Ayaan Hirsi Ali](https://www.theahafoundation.org/ayaan-hirsi-ali-founder-of-the-aha-foundation/), fled Somalia in order to seek political asylum in Holland after being subjugated horrific treatment, and then worked her way up from being a janitor to serving as an elected member of the Dutch parliament. 
 
 
+## For those who grew up in single-parent households, what spheres of influence would they expose themselves to gain access to the knowledge that a good father figure would provide to them in the first place?  
+
+
 <figure><img src="https://raw.githubusercontent.com/masayaShinoda/photography/master/src/assets/images/fulls/05.jpg" alt="Seas of southern Cambodia"></img><figcaption><i>"Effort and courage are not enough without purpose and direction."</i> — John F. Kennedy</figcaption></figure>
 
-
-## For those who grew up in single-parent households, what spheres of influence would they expose themselves to gain access to the knowledge that a good father figure would provide to them in the first place?  
 
  People who grew up in single parent households might not have the same luxuries as their traditional family counterparts when growing up, and maybe we're more likely to cause trouble and take risks, especially if you're a young adult—since there's only one person setting rules and giving advice. If so, you will have to seek guidance elsewhere. A good mother, to some degree, can provide this for her child. However, it is challenging for one parent to do the job of two, and it is temperamentally very difficult for women to make the shift from being merciful to disciplinary.
   
