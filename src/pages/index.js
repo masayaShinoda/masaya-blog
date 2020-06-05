@@ -51,7 +51,7 @@ const IndexPage = () => (
       <section>
         <h1>Welcome!</h1>
         <p>
-          Here is where I articulate and share my thoughts. Hope you find
+          Here is where I learn to articulate and share my thoughts. Hope you find
           something interesting to <Link to="/blog">read</Link> while you're
           here 😄.{" "}
         </p>
