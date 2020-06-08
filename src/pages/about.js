@@ -26,10 +26,11 @@ const AboutPage = () => {
         <div className="flexAbout">
           <h1>About</h1>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+            I'm a highschool student from Cambodia. This blog was created with
+            the aim of learning web development, but I later learnt that writing
+            is a great way to force myself to do research, and articulate my
+            thoughts on topics and ideas that matter. This is a place to share
+            what I've learnt.
           </p>
         </div>
         <div className="flexContact">

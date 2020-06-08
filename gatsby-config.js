@@ -6,6 +6,14 @@ module.exports = {
     author: `Masaya Shida`,
     copyright: `Masaya Shida`,
     siteUrl: `https://masayablog.netlify.app`,
+    keywords: [
+      `masayablog`,
+      `masaya`,
+      `masaya blog`,
+      `masayashinoda`,
+      `masaya freelance`,
+      `blog`,
+    ],
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
