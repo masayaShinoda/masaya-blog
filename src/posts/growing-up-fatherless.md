@@ -33,9 +33,7 @@ This is where the internet comes in.
  
 Dr. Jordan B. Peterson, a clinical psychologist and professor of psychology at the University of Toronto, has often been referred to as the "internet dad". The professor gave lectures, speeches and had done interviews on ideas such as personal responsibility, goal setting, and the speaking and acting out of the truth. Ever since he had been putting out these materials online, it continues to have life-changing effects on people of all backgrounds to this day. His message seems to be the guidance, and the encouraging voice that many of us are missing today.
 
-<figure><img src="https://i.ibb.co/BnpSyjW/jp-speaking.jpg" alt="Jordan Peterson speaking"></img></figure>
-
-> "If your current ambitions are crushing you, maybe you should dial them down instead of completely getting rid of them" — [Dr. Jordan Peterson, author of 12 Rules for Life and Maps of Meaning.](https://www.jordanbpeterson.com/)
+<figure><img src="https://i.ibb.co/BnpSyjW/jp-speaking.jpg" alt="Jordan Peterson speaking"></img><figcaption><i>"If your current ambitions are crushing you, maybe you should dial them down instead of completely getting rid of them" — <a href="https://www.jordanbpeterson.com">Dr. Jordan Peterson</a>, author of 12 Rules for Life and Maps of Meaning.</i></figcaption></figure>
 
 
 Joe Rogan's podcast The Joe Rogan Experience is also a goldmine of information and inspiration. He continues to invite remarkable people as guests on his show and have hour-long conversations with them, involving challenging ideas and understanding different people's perspectives and their ways of living life. Most of us won't have a friend like neuroscientist Sam Harris, Navy SEAL Jocko Willink, or SpaceX CEO Elon Musk in our lives, but listening to Joe's podcast with people like them exposes you to their ideas and teaches you things that you never thought you wanted to know before. 

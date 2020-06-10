@@ -10777,7 +10777,8 @@ a.text-dark:hover, a.text-dark:focus {
   color: #fcfff5;
 }
 
-body.light {
+body.light,
+body.dark {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -10785,27 +10786,39 @@ body.light {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background: #fcfff5;
   min-height: 100vh;
 }
 
 body.light h1,
-body.light h2 {
-  color: #193441;
-}
-
-body.light h1 {
+body.dark h1 {
   font-weight: 700;
   line-height: 1.4;
   margin-bottom: 0.5em;
   font-family: Merriweather, serif;
 }
 
-body.light h2 {
+body.light h2,
+body.dark h2 {
   font-size: 1.6em;
   font-weight: 500;
   line-height: 1.4;
   font-family: Oswald, sans-serif;
+}
+
+body.light figcaption,
+body.dark figcaption {
+  margin-top: 1.5em;
+  font-size: 0.9em;
+  color: #185d3a;
+}
+
+body.light {
+  background: #fcfff5;
+}
+
+body.light h1,
+body.light h2 {
+  color: #193441;
 }
 
 body.light h3 {
@@ -10882,14 +10895,9 @@ body.light figure {
 }
 
 body.light figure img {
-  color: #1a623d;
-  outline: 0.25vmin solid rgba(26, 98, 61, 0.625);
+  color: #185d3a;
+  outline: 0.25vmin solid rgba(24, 93, 58, 0.625);
   outline-offset: 2.5vmin;
-}
-
-body.light figure figcaption {
-  font-size: 0.9em;
-  color: #1a623d;
 }
 
 @media (max-width: 1023px) {
@@ -10906,10 +10914,11 @@ body.light figure figcaption {
 
 body.light blockquote {
   background: #f4ffdc;
-  border-left: 2px solid #1a623d;
+  border-left: 2px solid #185d3a;
   padding: 1.5vmax;
   padding-left: 2em;
   max-width: 65%;
+  margin-top: 1.1em;
 }
 
 body.light blockquote p {
@@ -10936,34 +10945,12 @@ body.light footer {
 }
 
 body.dark {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   background: #12252f;
-  min-height: 100vh;
 }
 
 body.dark h1,
 body.dark h2 {
   color: #e4eff5;
-}
-
-body.dark h1 {
-  font-weight: 700;
-  line-height: 1.4;
-  margin-bottom: 0.5em;
-  font-family: Merriweather, serif;
-}
-
-body.dark h2 {
-  font-size: 1.6em;
-  font-weight: 500;
-  line-height: 1.6;
-  font-family: Oswald, sans-serif;
 }
 
 body.dark h3 {
@@ -11040,14 +11027,9 @@ body.dark figure {
 }
 
 body.dark figure img {
-  color: #5fc9ae;
-  outline: 0.25vmin solid rgba(95, 201, 174, 0.625);
+  color: #5fc99d;
+  outline: 0.25vmin solid rgba(95, 201, 157, 0.625);
   outline-offset: 2.5vmin;
-}
-
-body.dark figure figcaption {
-  font-size: 0.9em;
-  color: #5fc9ae;
 }
 
 @media (max-width: 1023px) {
@@ -11064,7 +11046,7 @@ body.dark figure figcaption {
 
 body.dark blockquote {
   background: #193441;
-  border-left: 2px solid #5fc9ae;
+  border-left: 2px solid #5fc99d;
   padding: 1.5vmax;
   padding-left: 2em;
   max-width: 65%;
@@ -11089,11 +11071,11 @@ body.dark blockquote p {
 }
 
 body.dark .blogContent a {
-  color: #5fc9ae;
+  color: #5fc99d;
 }
 
 body.dark .blogContent a:hover {
-  color: #5aceb1;
+  color: #5ace9e;
 }
 
 body.dark .blogContent blockquote p {
@@ -11146,7 +11128,7 @@ header div .headerNavSection a {
 }
 
 header div .headerNavSection a i {
-  color: #1a623d;
+  color: #185d3a;
   margin-right: 0.35em;
 }
 
@@ -11276,12 +11258,12 @@ header .headerLogo:hover::after {
 }
 
 .pageContainer section a {
-  color: #1a623d;
+  color: #185d3a;
   text-decoration: underline;
 }
 
 .pageContainer section a:hover {
-  color: #17653d;
+  color: #15603a;
   text-decoration: underline;
 }
 
@@ -11323,11 +11305,11 @@ header .headerLogo:hover::after {
   max-width: 65%;
   margin: inherit;
   padding: inherit;
-  color: #1a623d;
+  color: #185d3a;
 }
 
 .blogContainer ul li a:hover p {
-  color: #0a2617;
+  color: #082014;
 }
 
 @media (max-width: 1023px) {
@@ -11392,13 +11374,17 @@ header .headerLogo:hover::after {
 }
 
 .blogTemplate .blogContent a {
-  color: #1a623d;
+  color: #185d3a;
   text-decoration: underline;
 }
 
 .blogTemplate .blogContent a:hover {
-  color: #17653d;
+  color: #15603a;
   text-decoration: underline;
+}
+
+.blogTemplate .blogContent img {
+  margin: 0;
 }
 
 .blogTemplate .blogContent h1,
@@ -11448,7 +11434,7 @@ header .headerLogo:hover::after {
   height: -moz-fit-content;
   height: fit-content;
   padding: 2.5vmax;
-  border: 0.25vmin solid rgba(26, 98, 61, 0.625);
+  border: 0.25vmin solid rgba(24, 93, 58, 0.625);
 }
 
 .aboutContainer .flexContact a,

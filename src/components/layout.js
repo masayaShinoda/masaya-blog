@@ -14,7 +14,6 @@ import SEO from "../components/seo"
 import Header from "./header"
 import "./layout.css"
 import layoutStyles from "../styles/styles.css"
-import lightAndDarknessStyles from "../styles/light-and-darkness.css"
 
 // import favicons
 import "../assets/css/font-awesome.min.css"
