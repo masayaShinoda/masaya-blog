@@ -10948,6 +10948,16 @@ body.light footer {
   color: #12252f;
 }
 
+body.light section a {
+  color: #155334;
+  text-decoration: underline;
+}
+
+body.light section a:hover {
+  color: #125634;
+  text-decoration: underline;
+}
+
 body.dark {
   background: #12252f;
 }
@@ -11092,6 +11102,16 @@ body.dark .blogContent blockquote p {
 
 body.dark footer {
   color: #fcfff5;
+}
+
+body.dark section a {
+  color: #5fc99d;
+  text-decoration: underline;
+}
+
+body.dark section a:hover {
+  color: #5ace9e;
+  text-decoration: underline;
 }
 
 header {
@@ -11263,16 +11283,6 @@ header .headerLogo:hover::after {
   .pageContainer p {
     max-width: 100%;
   }
-}
-
-.pageContainer section a {
-  color: #155334;
-  text-decoration: underline;
-}
-
-.pageContainer section a:hover {
-  color: #125634;
-  text-decoration: underline;
 }
 
 .blogContainer {
