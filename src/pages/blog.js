@@ -6,10 +6,6 @@ import SEO from "../components/seo"
 
 //styles import
 import blogStyles from "../styles/styles.css"
-//icons import
-import homeIcon from "../assets/home-icon.png"
-import podcastsIcon from "../assets/podcasts-icon.png"
-import blogIcon from "../assets/blog-icon.png"
 
 const BlogPage = () => {
   const data = useStaticQuery(graphql`
