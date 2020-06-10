@@ -10809,7 +10809,7 @@ body.light figcaption,
 body.dark figcaption {
   margin-top: 1.5em;
   font-size: 0.9em;
-  color: #185d3a;
+  color: #155334;
 }
 
 body.light {
@@ -10895,9 +10895,13 @@ body.light figure {
 }
 
 body.light figure img {
-  color: #185d3a;
-  outline: 0.25vmin solid rgba(24, 93, 58, 0.625);
+  color: #155334;
+  outline: 0.25vmin solid rgba(21, 83, 52, 0.625);
   outline-offset: 2.5vmin;
+}
+
+body.light figure figcaption {
+  color: #155334;
 }
 
 @media (max-width: 1023px) {
@@ -10914,7 +10918,7 @@ body.light figure img {
 
 body.light blockquote {
   background: #f4ffdc;
-  border-left: 2px solid #185d3a;
+  border-left: 2px solid #155334;
   padding: 1.5vmax;
   padding-left: 2em;
   max-width: 65%;
@@ -11028,8 +11032,12 @@ body.dark figure {
 
 body.dark figure img {
   color: #5fc99d;
-  outline: 0.25vmin solid rgba(95, 201, 157, 0.625);
+  outline: 0.25vmin solid #60c99e;
   outline-offset: 2.5vmin;
+}
+
+body.dark figure figcaption {
+  color: #3eb785;
 }
 
 @media (max-width: 1023px) {
@@ -11128,7 +11136,7 @@ header div .headerNavSection a {
 }
 
 header div .headerNavSection a i {
-  color: #185d3a;
+  color: #155334;
   margin-right: 0.35em;
 }
 
@@ -11258,12 +11266,12 @@ header .headerLogo:hover::after {
 }
 
 .pageContainer section a {
-  color: #185d3a;
+  color: #155334;
   text-decoration: underline;
 }
 
 .pageContainer section a:hover {
-  color: #15603a;
+  color: #125634;
   text-decoration: underline;
 }
 
@@ -11305,11 +11313,11 @@ header .headerLogo:hover::after {
   max-width: 65%;
   margin: inherit;
   padding: inherit;
-  color: #185d3a;
+  color: #155334;
 }
 
 .blogContainer ul li a:hover p {
-  color: #082014;
+  color: #06160e;
 }
 
 @media (max-width: 1023px) {
@@ -11374,12 +11382,12 @@ header .headerLogo:hover::after {
 }
 
 .blogTemplate .blogContent a {
-  color: #185d3a;
+  color: #155334;
   text-decoration: underline;
 }
 
 .blogTemplate .blogContent a:hover {
-  color: #15603a;
+  color: #125634;
   text-decoration: underline;
 }
 
@@ -11434,7 +11442,7 @@ header .headerLogo:hover::after {
   height: -moz-fit-content;
   height: fit-content;
   padding: 2.5vmax;
-  border: 0.25vmin solid rgba(24, 93, 58, 0.625);
+  border: 0.25vmin solid rgba(21, 83, 52, 0.625);
 }
 
 .aboutContainer .flexContact a,

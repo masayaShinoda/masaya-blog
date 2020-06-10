@@ -13,7 +13,7 @@ $clr-primary-darkmode: lighten($clr-primary, 75%);
 $clr-secondary: #d1dbbd;
 $clr-light: #fcfff5;
 $clr-dark: darken(#193441, 5%);
-$clr-theme-light: #185d3a;
+$clr-theme-light: #155334;
 $clr-theme-dark: #5fc99d;
 $font-heading: Merriweather, serif;
 $font-subheading: Oswald, sans-serif;
@@ -124,6 +124,9 @@ body.light {
       outline: 0.25vmin solid transparentize($clr-theme-light, 0.375);
       outline-offset: 2.5vmin;
     }
+    figcaption {
+      color: $clr-theme-light;
+    }
   }
   @media (max-width: $tablet-bp) {
     figure {
@@ -233,8 +236,11 @@ body.dark {
     img {
       //border-radius: 2.5vmin;
       color: $clr-theme-dark;
-      outline: 0.25vmin solid transparentize($clr-theme-dark, 0.375);
+      outline: 0.25vmin solid lighten($clr-theme-dark, 0.375);
       outline-offset: 2.5vmin;
+    }
+    figcaption {
+      color: darken($clr-theme-dark, 10%);
     }
   }
   @media (max-width: $tablet-bp) {
