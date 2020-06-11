@@ -464,7 +464,7 @@ header {
         max-width: 65%;
         margin: inherit;
         padding: inherit;
-        color: $clr-theme-light;
+        // color: $clr-theme-light;
       }
       a:hover p {
         color: darken($clr-theme-light, 15%);
@@ -584,7 +584,7 @@ header {
   .flexContact {
     height: fit-content;
     padding: 2.5vmax;
-    border: 0.25vmin solid transparentize($clr-theme-light, 0.375);
+    border: 0.25vmin solid $clr-theme-light;
     a,
     span {
       display: flex;
