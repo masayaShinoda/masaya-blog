@@ -466,9 +466,9 @@ header {
         padding: inherit;
         // color: $clr-theme-light;
       }
-      a:hover p {
-        color: darken($clr-theme-light, 15%);
-      }
+      // a:hover p {
+      //   color: darken($clr-theme-light, 15%);
+      // }
       @media (max-width: $tablet-bp) {
         h2 {
           font-size: 1.5em;

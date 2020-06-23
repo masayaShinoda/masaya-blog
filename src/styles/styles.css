@@ -11325,10 +11325,6 @@ header .headerLogo:hover::after {
   padding: inherit;
 }
 
-.blogContainer ul li a:hover p {
-  color: #06160e;
-}
-
 @media (max-width: 1023px) {
   .blogContainer ul li h2 {
     font-size: 1.5em;
