@@ -4,6 +4,11 @@ import Helmet from "react-helmet"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
+//gitalk
+import "gitalk/dist/gitalk.css"
+import Gitalk from "gitalk"
+import GitalkComponent from "gitalk/dist/gitalk-component"
+
 //styles import
 import indexStyles from "../styles/styles.css"
 
@@ -70,6 +75,17 @@ const IndexPage = () => (
           Are you into photography? Give this other{" "}
           <a href="https://masayaphoto.netlify.app">site</a> a visit 📷.
         </p>
+        <GitalkComponent
+          options={{
+            clientID: "548b75189d2defd01f51",
+            clientSecret: "640f4cf1777dde3c589c8a150ad2d1647daf6b75",
+            repo: "https://github.com/masayaShinoda/masaya-blog",
+            owner: "Masaya Shida",
+            admin: ["masayaShinoda"],
+            // ...
+            // options below
+          }}
+        />
       </section>
     </div>
   </Layout>

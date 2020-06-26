@@ -6,7 +6,7 @@ date: "29-04-2020"
 ## *In progress
 
 The Khmer Rouge regime set upon what became to be known as the darkest chapter of Cambodian history. Within just a period of 3 years and 8 months, an estimated quarter of the entire population of Cambodia were either starved to death or murdered.
-
+Khmer Rouge leaders were well educated. Many of its top-ranking members were taught in French universities.
 ## Why wouldn't it go wrong?
 
 Anyone who's studied 20<sup>th</sup> century history would rather ask this question instead. 
